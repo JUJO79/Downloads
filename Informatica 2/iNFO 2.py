@@ -78,17 +78,7 @@ class Ave:
     def volar(self):
         print("Este tipo de ave puede volar: ", self.vuelo)
 
-class ganso(Ave):
-    def __init__(self, tipo, vuela):
-        pass
-
-class pato(ganso):
-    def __init__(self, tipo, vuela, accion, pata, col):
-        ganso__init__(self,tipo,vuela,accion,pata):
-        self.color = col
-    def atacar(self, hambre):
-        if hambre == "Sí":
-            print("Ataca")
+#class pato(ganso):
 
 #ENCAPSULAMIENTO
 #Volver privado un atributo o acción de la clase: se utiliza self.__Variable y restringe el acceso al atributo
